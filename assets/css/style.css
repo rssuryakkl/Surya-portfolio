@@ -113,7 +113,36 @@
 
 
 
+.resume-link {
+  color: hsl(45, 100%, 72%);
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
 
+.resume-link:hover {
+  color: white;
+}
+
+.contact-item {
+  align-items: center;
+}
+
+.icon-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1e1e1f;
+  box-shadow: -4px 8px 24px rgba(0,0,0,0.25);
+}
+
+.icon-box ion-icon {
+  color: hsl(45, 100%, 72%);
+  font-size: 22px;
+}
 
 /*-----------------------------------*\
   #RESET
